@@ -5,4 +5,4 @@ name = "pypi"
 
 [packages]
 Django = "==2.2.13"
-"django-bootstrap4" = "==1.1.1"
+"django-bootstrap4" = "==2.2.0"
