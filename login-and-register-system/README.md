@@ -1,3 +1,8 @@
+# :exclamation: 
+This code does not belong to me. The repo is used to test security flaws.
+
+The owner's code can be found [here](https://github.com/egorsmkv/simple-django-login-and-register)
+
 # Simple Django Login and Registration
 
 An example of Django project with basic user functionality.
