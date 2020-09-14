@@ -111,8 +111,9 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
 USE_I18N = True
 USE_L10N = True
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'ro'
 LANGUAGES = [
+	('ro', _('Romanian')),
     ('en', _('English')),
     ('ru', _('Russian')),
     ('zh-Hans', _('Simplified Chinese')),

@@ -215,7 +215,7 @@ class RestorePasswordViaEmailOrUsernameForm(UserCacheMixin, forms.Form):
 class ChangeProfileForm(forms.Form):
     first_name = forms.CharField(label=_('First name'), max_length=30, required=False)
     last_name = forms.CharField(label=_('Last name'), max_length=150, required=False)
-
+    dot_name = forms.CharField(label=_('Dot name'), max_length=150, required=False)
 
 class ChangeEmailForm(forms.Form):
     email = forms.EmailField(label=_('Email'))
